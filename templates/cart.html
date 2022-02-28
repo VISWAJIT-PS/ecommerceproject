@@ -98,7 +98,8 @@ this is the Cart Page
                </table>
           </div>
 
-     </div>
+
+
      <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center">
            <table class="table my_custom_table">
                 <thead class="my_custom_thead">
@@ -115,7 +116,14 @@ this is the Cart Page
                 <tbody>
                 <tr>
                      <td>
-                          Please review your shoping cart items before proceeding with order payment.
+                          Please review your shopping cart items before proceeding with order payment.
+                     </td>
+
+                </tr>
+                <tr>
+                     <td class="test-left">
+                          Your Total Amount is  <strong> ₹ {{total}}</strong>
+
                      </td>
                 </tr>
                 </tbody>
@@ -125,10 +133,10 @@ this is the Cart Page
 
           </div>
 
-
+{% endif %}
      </div>
 </div>
 
-{% endif %}
+</div>
 
 {% endblock %}
