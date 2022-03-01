@@ -16,13 +16,11 @@ body {
 .my_footer{
     background-color:#f8f9fa;
     height:60px;
-
-}
-.my_footer{
     padding-top:20px;
     font-size:14px;
 
 }
+
 
 /*** category page ***/
 .my_row_class{
