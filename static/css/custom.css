@@ -18,16 +18,9 @@ body {
     height:60px;
 
 }
-.my_footer p{
+.my_footer{
     padding-top:20px;
     font-size:14px;
-
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
-   background:#F5F5F5;
-
 
 }
 
@@ -57,6 +50,7 @@ body {
 .my_image_padding{
     padding:5px;
 }
+
 .my_bottom_margin{
     margin-bottom:10px;
 }
