@@ -16,7 +16,15 @@
 {% block content %}
 <div class="row my_prod_row_class">
     <div class="mx_auto">
-        <p><a href="{% url 'shop:allProdCat' %}">Home</a> | <a href="{{product.category.get_url}}">{{product.category}}</a>|{{product.name}}</p>
+        <p>
+            <a href="{% url 'shop:allProdCat' %}">
+                <button type="button" class="btn btn-outline-light btn_font">Home</button>
+            </a>
+            <a href="{{product.category.get_url}}">
+                <button type="button" class="btn btn-outline-light btn_font">{{product.category}}</button>
+            </a>
+            <button type="button" class="btn btn-outline-light btn_font">{{product.name}}</button>
+        </p>
     </div>
 <div class="container">
 <br>
