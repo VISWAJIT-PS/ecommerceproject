@@ -28,7 +28,7 @@
     {% endif %}
         <div class="mx_auto">
             {% if category %}
-      <img class="my_image" src="{{category.image.url}}" alt="{{category.name}}">
+      <img class="my_image2" src="{{category.image.url}}" alt="{{category.name}}">
 </div>
       <br>
 <div>
@@ -37,7 +37,7 @@
 </div>
       {% else %}
 <div>
-<img class ="my_image my_image_padding" src="{% static 'img/banner.png' %}" alt="our products">
+<img class ="my_image2 my_image_padding" src="{% static 'img/banner.png' %}" alt="our products">
 </div>
 <br>
 <div >
@@ -50,10 +50,10 @@
         {% for product in products.object_list %}
         <div class="my_bottom_margin col-9 col-sm-12 col-md-4 col-lg-4">
             <div class="shadow card text-center" style="min-width:18rem;">
-                <a href="{{product.get_url}}"><img class="shadow card-img-top my_image" src="{{product.image.url}}" alt="{{product.name}}"></a>
+                <a  href="{{product.get_url}}"><img class="shadow card-img-top my_image" src="{{product.image.url}}" alt="{{product.name}}"></a>
                 <div class="card-body">
-                    <h4>{{product.name}}</h4>
-                    <p>₹{{product.price}}</p>
+                    <b><h4>{{product.name}}</h4>
+                    <p>₹ {{product.price}}</p></b>
                 </div>
             </div>
         </div>

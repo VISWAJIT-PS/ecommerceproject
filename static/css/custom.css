@@ -33,8 +33,13 @@ body {
     font-size:12px;
 }
 .my_image{
-    width:100%;
-    height:auto;
+    width:100px;
+    height:300px;
+}
+
+.my_image2{
+    width:1400px;
+    height:200px;
 }
 .my_title{
     font-size: 16px;
@@ -53,6 +58,13 @@ body {
     font-size:14px;
     text-transform:uppercase;
     letter-spacing:.2em;
+
+}
+
+.GFG{
+    text-decoration: none !important
+    color: black !important
+
 }
 /***product page***/
 .my_prod_row_class{
@@ -107,6 +119,16 @@ padding-top:20px;
 
 .my_custom_button{
     margin_top:5px;
+     border: none;
+    padding: 15px 32px;
+
+}
+
+.my_custom_buy_button{
+    margin_top:5px;
+    border: none;
+    padding: 15px 32px;
+    background-color:#ED4206 !important;
 
 }
 .custom_image{
