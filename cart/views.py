@@ -64,4 +64,5 @@ def full_remove(request,product_id):
     return redirect('cart:cart_detail')
 
 def buy(request):
-    return render(request, 'buy.html',)
+    return render(request, 'buy.html')
+
