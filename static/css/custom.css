@@ -13,11 +13,29 @@ body {
     font-size :14px;
     text-transform :uppercase;
 }
-.my_footer{
+
+/*#container{
+    min-height: 100%;
+}
+#main{
+    overflow: auto;
+    padding-bottom:100px
+}
+
+#my_footer{
     background-color:#f8f9fa;
+    position: relative;
     height:60px;
-    padding-top:20px;
+    margin-top: -60px;
+    clear: both;
+}*/
+
+.my_footer{
+    background-color:#f7f7f7;
+    height:60px;
+    bottom:0;
     font-size:14px;
+    position: fixed;
 
 }
 
